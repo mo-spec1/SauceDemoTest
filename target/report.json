@@ -1,0 +1,313 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Access the Sauce Demo homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 548000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the Sauce Labs Login Page",
+            "match": {
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T22:39:51.217Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2778000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demotestsaucelab.hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login Reset",
+        "description": "",
+        "id": "login;login-reset;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 646000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demotestsaucelab.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the credentials \"standard_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.i_enter_the_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Access the Sauce Demo homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 955000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the Sauce Labs Login Page",
+            "match": {
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T22:39:55.642Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1356000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demotestsaucelab.hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login Reset",
+        "description": "",
+        "id": "login;login-reset;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 639000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demotestsaucelab.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the credentials \"problem_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.i_enter_the_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Access the Sauce Demo homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 418000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the Sauce Labs Login Page",
+            "match": {
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-19T22:39:58.981Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1330000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demotestsaucelab.hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login Reset",
+        "description": "",
+        "id": "login;login-reset;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 691000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.demotestsaucelab.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the credentials \"performance_glitch_user\" and \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.i_enter_the_credentials_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5108000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the login button",
+            "match": {
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "com.demotestsaucelab.stepdefinitions.LoginSteps.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user\n  I want to be able to login successfully\n  So I can access my account",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/demotestsaucelab/features/ResetPass.feature",
+    "tags": []
+  }
+]
