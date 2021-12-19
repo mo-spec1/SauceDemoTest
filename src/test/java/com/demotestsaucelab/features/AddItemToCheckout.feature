@@ -4,7 +4,7 @@ Feature: Add an item to basket
   So I can checkout successfully
 
   Background: Access to the Products page
-    Given I navigate to the Sauce Labs Homepage
+    Given I navigate to the Sauce Labs login page
     And I enter the credentials "standard_user" and "secret_sauce"
     Then I should be taken to the product page
 
